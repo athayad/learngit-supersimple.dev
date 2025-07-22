@@ -1,6 +1,6 @@
 # git-ssd
 
-This is a simple project to learn git
+This is the Fundamentals to learn git
 
 use git init to initialize the repository on local
 use rm -rf .git to remove the repository on local
@@ -13,8 +13,9 @@ use git commit to commit the changes
   (add --amend to commit to the previous commit)
 use git log to see the commit history
 use git reset to unstage the changes from the staging area
+use git checkout -- to undo the changes from the working area
 
-What's on my terminal from the start
+What's on my terminal (Fundamentals)
 1. git init
 2. git status
 3. git add .
@@ -35,3 +36,5 @@ What's on my terminal from the start
 18. git status
 19. git reset
 20. git status
+21. git checkout -- .
+22. git status
