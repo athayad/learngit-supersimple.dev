@@ -12,7 +12,7 @@ use git add to add files to the staging area
 use git commit to commit the changes
   (add --amend to commit to the previous commit)
 use git log to see the commit history
-
+use git reset to unstage the changes from the staging area
 
 What's on my terminal from the start
 1. git init
@@ -27,3 +27,11 @@ What's on my terminal from the start
 10. git status
 11. git commit -m "Adding simple app in src/app/" --amend
 12. git log
+13. git status
+14. git add .
+15. git status
+16. git commit -m "Version 2"
+17. git log
+18. git status
+19. git reset
+20. git status
